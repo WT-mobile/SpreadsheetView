@@ -25,4 +25,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/WT-mobile/SpreadsheetView.git', :tag => "v#{s.version}" }
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kishikawa Katsumi' => 'kishikawakatsumi@mac.com' }
+  s.social_media_url = 'https://twitter.com/k_katsumi'
 end
