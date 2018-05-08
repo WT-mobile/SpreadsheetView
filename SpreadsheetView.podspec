@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'SpreadsheetView'
+  s.name             = 'SpreadsheetKit'
   s.version          = '0.8.4'
   s.summary          = 'Full configurable spreadsheet view user interfaces for iOS applications.'
   s.description      = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source_files     = 'Framework/Sources/*.swift'
   s.pod_target_xcconfig = { 'SWIFT_WHOLE_MODULE_OPTIMIZATION' => 'YES', 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
   s.frameworks = 'UIKit'
-  s.source           = { :git => 'https://github.com/kishikawakatsumi/SpreadsheetView.git', :tag => "v#{s.version}" }
+  s.source           = { :git => 'https://github.com/WT-mobile/SpreadsheetView.git', :tag => "v#{s.version}" }
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kishikawa Katsumi' => 'kishikawakatsumi@mac.com' }
   s.social_media_url = 'https://twitter.com/k_katsumi'
