@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
                          - `UICollectionView` like API
                          - Well unit tested
                        DESC
-  s.homepage         = 'https://github.com/kishikawakatsumi/SpreadsheetView'
+  s.homepage         = 'https://github.com/WT-mobile/SpreadsheetView'
   s.screenshots      = 'https://raw.githubusercontent.com/kishikawakatsumi/SpreadsheetView/master/Resources/GanttChart.png', 'https://raw.githubusercontent.com/kishikawakatsumi/SpreadsheetView/master/Resources/Timetable.png', 'https://raw.githubusercontent.com/kishikawakatsumi/SpreadsheetView/master/Resources/DailySchedule_portrait.png'
   s.ios.deployment_target = '8.0'
   s.source_files     = 'Framework/Sources/*.swift'
